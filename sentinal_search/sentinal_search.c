@@ -9,7 +9,7 @@ int sentinal_search(int *arr,int size,int key)
 		i++;
 	}
 	arr[size-1]=last;
-	if((i<=size-1)||(arr[size-1]==key)){
+	if((i<size-1)||(arr[size-1]==key)){
 		return i;
 	}else{
 		return -1;
